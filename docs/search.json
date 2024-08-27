@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "Step 3 Homework 1.html",
+    "href": "Step 3 Homework 1.html",
+    "title": "Homework 1",
+    "section": "",
+    "text": "Below are my answers to the data science vs statistics questions.\n\n\nI think of a data scientist as an individual that handles the programming required to manage and interpret a large amount of data. I imagine them as some type of contracter or consultant for a company. I don’t think of a data scientist as someone who comes up with a research question and collects data themselves.\n\n\nThere is a large overlap between the fields of data science and statistics. Both groups use programming languages, create models, and produce analysis. However, in data science there is a greater emphasis on programming, while in statistics there is greater emphasis on the underlying mathematical principles.I also think that statisticians are more likely to work on general problems, closer to the world of theory and are open to really any result, while data scientists are setting out to solve a problem, and at least have a specific goal in mind.\n\n\nAs a statistics student, I identify more as a statistician, given the courses I have taken in statistical theory and experimental design. However, the technology associated with the field of data science allows for so much analysis to be done on such a large scale that most statisticians probably consider themselves somewhat of a data scientist, and vice versa. In the modern day, data science skills are crucial to the field of statistics."
+  },
+  {
+    "objectID": "Step 3 Homework 1.html#data-science-questions",
+    "href": "Step 3 Homework 1.html#data-science-questions",
+    "title": "Homework 1",
+    "section": "",
+    "text": "Below are my answers to the data science vs statistics questions.\n\n\nI think of a data scientist as an individual that handles the programming required to manage and interpret a large amount of data. I imagine them as some type of contracter or consultant for a company. I don’t think of a data scientist as someone who comes up with a research question and collects data themselves.\n\n\nThere is a large overlap between the fields of data science and statistics. Both groups use programming languages, create models, and produce analysis. However, in data science there is a greater emphasis on programming, while in statistics there is greater emphasis on the underlying mathematical principles.I also think that statisticians are more likely to work on general problems, closer to the world of theory and are open to really any result, while data scientists are setting out to solve a problem, and at least have a specific goal in mind.\n\n\nAs a statistics student, I identify more as a statistician, given the courses I have taken in statistical theory and experimental design. However, the technology associated with the field of data science allows for so much analysis to be done on such a large scale that most statisticians probably consider themselves somewhat of a data scientist, and vice versa. In the modern day, data science skills are crucial to the field of statistics."
+  },
+  {
+    "objectID": "Step 3 Homework 1.html#iris-data-set",
+    "href": "Step 3 Homework 1.html#iris-data-set",
+    "title": "Homework 1",
+    "section": "Iris Data Set",
+    "text": "Iris Data Set\nAs instructed, we create the object y from the Iris data set.\nWe determine the class, type, and structure of y.\n\ny &lt;- density(iris$Petal.Width)\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 7\n $ x        : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y        : num [1:512] 0.00163 0.0018 0.00199 0.00219 0.00241 ...\n $ bw       : num 0.252\n $ n        : int 150\n $ call     : language density.default(x = iris$Petal.Width)\n $ data.name: chr \"iris$Petal.Width\"\n $ has.na   : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nWe plot the y and use echo:false to keep the R code from being displayed in the document."
+  }
+]
